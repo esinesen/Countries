@@ -48,3 +48,6 @@ In the same way, we can save or delete countries clicking the "star" button in t
 
 ![Simulator Screen Shot - iPhone8 - 2022-10-07 at 22 04 58](https://user-images.githubusercontent.com/81181802/194649476-8e791c7c-6317-4de0-ae88-703c0477a9ae.png)
 
+* Dokumentation: 
+
+[Countries.pdf](https://github.com/esinesen/Countries/files/9737528/Countries.pdf)
