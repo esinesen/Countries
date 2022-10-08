@@ -17,7 +17,7 @@ This is an application where we can view various countries, access their details
   * After parsing the data with JSONDecoder, I placed it in Collection View.
   * At the bottom of the page is the Tab Bar Controller, where we can switch between the home screen and the saved screen.
 
-On the home screen, we can see the names and codes of the first 10 countries in the API I used.
+On the home screen, we can see the names of the first 10 countries in the API I used.
 We can also save or delete countries by clicking the "star" button on the right of the cells.
 By clicking on the desired country, we can access its details.
 
