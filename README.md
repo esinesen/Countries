@@ -12,7 +12,7 @@ This is an application where we can view various countries, access their details
 
 ## Home screen
 
-![Simulator Screen Shot - iPhone8 - 2022-10-07 at 22 02 59](https://user-images.githubusercontent.com/81181802/194649377-023bb2ee-5c67-4397-aef8-57466b3abda5.png)
+![Simulator Screen Shot - iPhone8 - 2022-10-08 at 11 43 16](https://user-images.githubusercontent.com/81181802/194699602-fadbaf1d-59ef-4201-93a2-d0cbb03217e9.png)
 
   * After parsing the data with JSONDecoder, I placed it in Collection View.
   * At the bottom of the page is the Tab Bar Controller, where we can switch between the home screen and the saved screen.
@@ -25,7 +25,7 @@ By clicking on the desired country, we can access its details.
 
 ## Saved screen
 
-![Simulator Screen Shot - iPhone8 - 2022-10-08 at 11 43 23](https://user-images.githubusercontent.com/81181802/194699557-f67524a3-7c85-4628-a391-a4bff79887c7.png)
+![Simulator Screen Shot - iPhone8 - 2022-10-08 at 11 43 23](https://user-images.githubusercontent.com/81181802/194699623-66c96d09-1df6-467b-a5d9-2a5e496ca132.png)
 
   * I used UserDefaults to save the countries and not to lose the ones we save when we close the application.
 
