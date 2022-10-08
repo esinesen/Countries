@@ -46,6 +46,6 @@ extension SavedVC: UICollectionViewDataSource, UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let selectedItem = collectionView.dequeueReusableCell(withReuseIdentifier: "savedCell", for: indexPath as IndexPath) as! SavedCell
         selectedItem.configure(name: SavedVC.storedCountry[indexPath.row], code: SavedVC.storedCountryCode[indexPath.row])
-        DetailsVC.code = selectedItem.codeLabel.text!
+        DetailsVC.code = selectedItem.code
     }
 }

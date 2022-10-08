@@ -61,6 +61,6 @@ extension HomeVC: UICollectionViewDataSource, UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let selectedItem = collectionView.dequeueReusableCell(withReuseIdentifier: "countryCell", for: indexPath as IndexPath) as! CountryCell
         selectedItem.configure(model: countries[indexPath.row])
-        DetailsVC.code = selectedItem.codeLabel.text!
+        DetailsVC.code = selectedItem.code
     }
 }

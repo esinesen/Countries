@@ -10,8 +10,9 @@ import UIKit
 class SavedCell: UICollectionViewCell {
     
     @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var codeLabel: UILabel!
     @IBOutlet weak var saveButton: UIButton!
+    
+    var code = ""
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -22,17 +23,17 @@ class SavedCell: UICollectionViewCell {
     
     func configure(name: String, code: String) {
         self.nameLabel.text = name
-        self.codeLabel.text = code
+        self.code = code
     }
     
     @IBAction func saveClicked(_ sender: Any) {
         if saveButton.currentImage == UIImage(systemName: "star"){
             SavedVC.storedCountry.append(nameLabel.text ?? "")
-            SavedVC.storedCountryCode.append(codeLabel.text ?? "")
+            SavedVC.storedCountryCode.append(code )
             saveButton.setImage(UIImage(systemName: "star.fill"), for: .normal)
         } else if saveButton.currentImage == UIImage(systemName: "star.fill") {
             SavedVC.storedCountry.removeAll(where: {$0 == nameLabel.text})
-            SavedVC.storedCountryCode.removeAll(where: {$0 == codeLabel.text})
+            SavedVC.storedCountryCode.removeAll(where: {$0 == code})
             saveButton.setImage(UIImage(systemName: "star"), for: .normal)
         }
         UserDefaults.standard.set(SavedVC.storedCountry, forKey: "saved")
