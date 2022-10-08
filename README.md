@@ -25,7 +25,7 @@ By clicking on the desired country, we can access its details.
 
 ## Saved screen
 
-![Simulator Screen Shot - iPhone8 - 2022-10-07 at 22 03 07](https://user-images.githubusercontent.com/81181802/194649398-a2054b1a-bdbc-40d2-a01f-486c6cbddc8a.png)
+![Simulator Screen Shot - iPhone8 - 2022-10-08 at 11 43 23](https://user-images.githubusercontent.com/81181802/194699557-f67524a3-7c85-4628-a391-a4bff79887c7.png)
 
   * I used UserDefaults to save the countries and not to lose the ones we save when we close the application.
 
